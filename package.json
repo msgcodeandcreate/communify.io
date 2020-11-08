@@ -14,14 +14,14 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.0.0-beta.2",
-    "bootstrap-vue": "^2.0.0-rc.11",
+    "bootstrap-vue": "^2.18.1",
     "express": "^4.16.3",
-    "mongoose": "^5.2.6",
-    "morgan": "^1.9.0",
+    "mongoose": "^5.10.13",
+    "morgan": "^1.10.0",
     "serve-favicon": "^2.5.0",
     "socket.io-client": "^2.1.1",
     "socketio": "^1.0.0",
@@ -49,7 +49,7 @@
     "copy-webpack-plugin": "^4.0.1",
     "cross-spawn": "^5.0.1",
     "css-loader": "^0.28.0",
-    "eslint": "^4.15.0",
+    "eslint": "^4.19.1",
     "eslint-config-standard": "^10.2.1",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
@@ -84,7 +84,7 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-dev-server": "^2.11.5",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
