@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/mevn.jpg" width="350" />
-    <HelloWorld msg="Default Boilerplate Template" />
+    <img alt="Vue logo" src="../assets/communify.png" width="350" />
+    <HelloWorld msg="Chatapp" />
   </div>
 </template>
 

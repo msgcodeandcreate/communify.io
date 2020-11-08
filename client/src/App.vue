@@ -1,12 +1,26 @@
 <template>
-  <div id="app">
+  <div id="app" :class="{ blackbg:isDark }">
+    <button @click="setBlack" class="margin5">Darkmode</button>
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/chat">Chat</router-link>
     </div>
     <router-view />
   </div>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    isDark: false,
+  }),
+  methods: {
+    setBlack() {
+      this.isDark = this.isDark === false ? true : false;
+    }
+  }
+};
+</script>
 
 <style>
 #app {
@@ -28,4 +42,8 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+  .blackbg {
+    background-color: rgb(31, 30, 30);
+  }
 </style>

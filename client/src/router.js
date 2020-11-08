@@ -14,9 +14,9 @@ export default new Router({
       component: Home
     },
     {
-      path: "/about",
-      name: "about",
-      component: () => import("./views/About.vue")
+      path: "/chat",
+      name: "chat",
+      component: () => import("./views/Chat.vue")
     }
   ]
 });
